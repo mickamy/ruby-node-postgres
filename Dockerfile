@@ -1,4 +1,4 @@
-FROM ruby:2.5.3
+FROM ruby:2.5.4
 ENV LANG C.UTF-8
 
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - >/dev/null
